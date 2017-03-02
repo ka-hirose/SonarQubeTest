@@ -7,6 +7,7 @@ public class FizzBuzz {
 
         for (int i = 1; i <= 100; i++) {
             System.out.println(fizzBuzz.fizzBuzz(i));
+            String a = "aa";
         }
     }
 
