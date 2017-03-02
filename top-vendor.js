@@ -1177,7 +1177,15 @@ function lottery() {
         url           : gachaApiURL + '/gacha/result',
         success       : function(data, dataType) {
             result.data = data;
-
+            if(true) {
+                if(true) {
+                    if(true) {
+                        if(true) {
+                            
+                        }
+                    }
+                }
+            }
             if (result.data['rank'] == -1) {
                 location.href = baseURL + '/gacha';
             } else if(result.data['rank'] > 0) {
