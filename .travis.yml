@@ -1,1 +1,4 @@
-language: javascript
+language: java
+jdk:
+  - oraclejdk8
+after_success: './sonar.sh ${TRAVIS_PULL_REQUEST} ${SONAR_HOST} ${SONAR_USERNAME} ${SONAR_PASSWORD} ${GITHUB_OAUTH}'
